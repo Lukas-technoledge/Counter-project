@@ -1,0 +1,38 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: palevioletred;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+.counter-box {
+    text-align: center;
+    background-color: plum;
+    border: white solid 3px;
+    flex: 0 0 70%;
+    padding: 1rem;
+    font-weight: bold;
+    box-shadow: 3px 3px 5px white;
+} 
+
+.counter {
+    font-size: 5rem;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    margin: 0.5rem 0.25rem;
+}
+
+.btn:hover {
+    color: white;
+    background-color: darkorchid;
+}
